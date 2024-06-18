@@ -2,3 +2,12 @@
 const nextConfig = {};
 
 module.exports = nextConfig;
+
+
+module.exports = {
+	exportPathMap() {
+		return {
+			'/': { page: '/' },
+		}
+	}
+}
